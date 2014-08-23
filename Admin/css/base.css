@@ -1,0 +1,226 @@
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline; }
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block; }
+    body {
+        line-height: 1; background: rgba(54,154,157,0.6)    }
+   ul {
+        list-style: none; }
+    blockquote, q {
+        quotes: none; }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none; }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0; font-family: 'Roboto'; font-weight: 400}
+    a, a:active, a:visited,a:hover{text-decoration: none;color: inherit;}
+h1{font-family: 'charis_silregular'; font-size: 48px}
+h2{font-family: 'charis_silregular'; font-size: 23px}
+h3{font-family: 'charis_silregular'; font-size: 30px}
+h4{font-family: 'charis_silregular'; font-size: 35px}
+h5{font-family: 'Roboto'; font-size: 15px}
+p{font-family: 'Roboto';font-size: 13px; font-weight: 400;line-height: 120% }
+.menubar{background: url(../images/fondo.jpg);height: 80px;width: 100%;border-bottom: 1px solid #369A9D;z-index: 9999}
+.intro{background:url(../images/intro.jpg);width: 100%;height: 700px}
+.intro2{background:url(../images/proceso.jpg);width: 100%;height: 700px}
+.menu{;font-family: 'Roboto', sans-serif;color: #fff;font-weight: 400;font-size: 16px;float: right;margin-top: 50px;}
+.menu li{display: inline;margin: 0px 20px}
+.menu li:hover{color: #b9f2f5;cursor: pointer;}
+.intro .container, .intro2 .container{padding-top: 220px;color: #fff}
+.intro h2,.intro2 h2{padding: 10px}
+.intro p{padding: 5px 10px;width: 320px;font-size: 14px}
+.intro button,.intro2 button{border: 2px solid #fff; background-color: transparent; color:#fff;padding: 6px 30px;font-family: 'charis_silregular'; font-size: 18px;margin: 30px auto;display: block; }
+.intro button:hover,.intro2 button:hover{background: #fff;color: #477ca6;cursor: pointer;outline: none}
+.quiensoy h1,.afec h1,.como h1,.contacto h1{margin-top: 100px;color: #369A9D}
+.quiensoy h5{color:#369A9D}
+.quiensoy p,.contacto p{color:#477ca6; padding-top: 10px}
+.quiensoy h3, .quiensoy h2,.como h2{margin: 30px 0 10px 0; color: #477ca6;}
+.quiensoy hr,.afec hr,.como hr,.contacto hr{width: 100%; height: 2px; background-color: #369A9D;border: none}
+.quiensoy button{border: 1px solid #477ca6; background-color: #fff;padding: 10px 30px;font-family: 'charis_silregular'; font-size: 18px;color: #477ca6;margin: 30px auto;display: block; }
+.quiensoy button:hover{background: #477ca6;color: white;cursor: pointer;outline: none}
+.quiensoy img{margin: 0 auto;display: block;}
+.ven{background: url(../images/afec.jpg);width: 100%;height: 750px}
+.ven h1{color: #fff;padding-top: 60px}
+.ven hr,.cons hr{ height: 2px; background: #fff;margin-bottom: 30px;border: none;}
+.contacto h4{color: #369A9D;padding-top: 20px}
+.contacto form{font-family: 'Roboto';color: #477ca6;padding: 30px 0}
+.contacto input{display: block;border: 1px solid #369A9D; width: 100%;height: 21px;padding: 2px;margin: 8px 0}
+.contacto textarea{display: block;border: 1px solid #369A9D; width: 100%;height: 60px;padding: 2px;margin: 8px 0}
+.contacto button{border: 1px solid #477ca6; background-color: #fff;padding: 3px 15px;font-family: 'charis_silregular'; font-size: 18px;color: #477ca6;}
+.contacto button:hover{cursor:pointer;border: 1px solid #477ca6; background-color: #477ca6;padding: 3px 15px;font-family: 'charis_silregular'; font-size: 18px;color: #fff;}
+.contacto strong{font-family: 'Roboto';font-weight: 600}
+.adress{margin-top: 40px}
+.contacto iframe{margin:20px 0;width: 100%; height: 250px;}
+.square{width: 400px !important;border: 3px solid #fff;height:100px;display: inline-block;margin-top: 20px}
+.big{width: 400px !important;border: 3px solid #fff;height:150px;display: inline-block;margin-top: 20px}
+.tittle{padding: 35px 20px;text-align: center; font-size: 20px;color: #fff;font-family: 'Roboto';font-weight: 400;}
+.big .tittle{padding: 65px 20px!important}
+.content{color: #fff;padding: 10px;display: none}
+.square:hover .content{display: block;background:rgba(54,154,157,0.4);height:80px;cursor: pointer;}
+.big:hover .content{display: block;background:rgba(54,154,157,0.4);height:130px;cursor: pointer;}
+.square:hover .tittle, .big:hover .tittle{display: none}
+.af{height: 550px;width:218px!important;border: 1px solid #f1f1f1;border-radius: 8px}
+.af p {padding: 10px}
+.lineb{background:rgba(54,154,157,0.9);height: 30px;color: #fff;padding: 20px 0 0 0;text-align: center;margin-top: 218px}
+.afec .af{margin-top: 40px }
+.primero{background: url(../images/pareja.jpg) no-repeat; background-size:100%;}
+.segundo{background: url(../images/emociones.jpg) no-repeat; background-size:100%;}
+.tercero{background: url(../images/estres.jpg) no-repeat; background-size:100%;}
+.cuarto{background: url(../images/depresion.jpg) no-repeat; background-size:100%;}
+.quinto{background: url(../images/violencia.jpg) no-repeat; background-size:100%}
+.sexto{background: url(../images/codependencia.jpg) no-repeat; background-size:100%}
+.septimo{background: url(../images/duelo.jpg) no-repeat; background-size:100%}
+.octavo{background: url(../images/autoestima.jpg) no-repeat; background-size:100%}
+.primero:hover .black,.segundo:hover .black,.tercero:hover .black,.cuarto:hover .black,.quinto:hover .black,.sexto:hover .black,.septimo:hover .black,.octavo:hover .black{display: block;margin-bottom: -268px}
+.black{background-color: rgba(0,0,0,0.5); height: 118px;display: none;padding-top: 150px}
+.afec button{border: 1px solid #fff; background-color: transparent;padding: 10px;font-family: 'Roboto'; font-size: 16px;color: #fff;margin: 0px auto;display: block; }
+.afec button:hover{background: #000;color: white;cursor: pointer;outline: none}
+.como p{margin: 40px 0}
+.como table td,.como table th{border: 1px solid #f1f1f1; padding: 10px}
+.como table{width: 400px; margin-top: 30px;font-size: 14px}
+.como th {background:#444; color: #fff;border:none;font-family: 'charis_silregular';font-size: 18px;font-weight: 300}
+.g{background: #369A9D;color: #fff}
+.como{padding-bottom: 100px}
+.como ol{padding-left: 30px;margin: 20px 0}
+.como li{padding-bottom: 3px;font-family: 'Roboto';font-size: 13px; font-weight: 400;line-height: 120%;margin: 5px 0}
+.como ul{list-style:disc;padding-left: 30px}
+li strong{color: #477ca6;}
+.cons h1{color: #fff;padding-top: 60px}
+.cons{background: url(../images/fondo.jpg);height: 450px;width: 100%}
+.cons img{margin: 20px auto;display: block;}
+.cons h2{color: #fff;text-align: center;margin: 8px 0}
+body.consultasfondo{background: #00a3a2;height: 100%;width: 100%;background-size: 100%;color: #fff}
+.consultas.container{padding-top: 200px;color: #fff;padding-bottom: 50px}
+.consultas p{margin: 10px 0 5px 0}
+.consultas ul{margin: 20px 0 10px 0;list-style:disc;padding-left: 30px;font-family: 'Roboto';font-size: 13px}
+.consultas li{margin: 5px 0}
+.descargar{color:#fff;padding: 10px;border: 2px solid #fff;text-align: center;width: 200px;margin: 20px 0;font-family: 'Roboto';font-weight: 300}
+.descargar:hover{background: rgba(54,154,157,0.6)}
+.consulta form{font-family: 'Roboto'}
+.consulta input{width:200px;display: block;border: 1px solid #f1f1f1;background: rgba(254,254,254,0.2);color: #fff!important;font-weight: 300;height: 30px;padding: 2px;font-family: 'Roboto';font-size: 14px;margin: 10px 0;outline: none}
+.cons .descargar{margin:40px auto;display: block;}
+.consulta button{cursor:pointer;width:205px;display: block;border: 1px solid #f1f1f1;background: #fff;color: #00a3a2!important;font-weight: 400;height: 40px;padding: 2px;font-family: 'Roboto';font-size: 14px;margin: 20px 0;outline: none}
+.consulta button:hover{border: 1px solid #f1f1f1;background:rgba(254,254,254,0.2);color:#fff!important}
+select{display: block; width: 205px;height: 35px;border: 1px solid #f1f1f1;background:rgba(254,254,254,0.2);border-radius: 0%;color: #fff;margin: 10px 0;outline: none;font-size: 14px}
+#total p{font-size: 25px}
+.consulta textarea{width:200px;display: block;border: 1px solid #f1f1f1;background: rgba(254,254,254,0.2);color: #fff!important;font-weight: 300;height: 100px;padding: 2px;font-family: 'Roboto';font-size: 14px;margin: 10px 0;outline: none}
+
+/*MENU MOBILE*/
+.slicknav_btn {z-index: 99999; position: fixed; display: block; vertical-align: middle; padding: 20px 0px 10px 80%; line-height: 1.125em; cursor: pointer; }
+.slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
+.slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
+.slicknav_menu .slicknav_no-text { margin: 0; }
+.slicknav_menu .slicknav_icon-bar { display: block; width: 1.125em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; }
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
+.slicknav_nav { clear: both;}
+.slicknav_nav ul,
+.slicknav_nav li { display: block;border-bottom: 1px solid rgba(254,254,254,0.2)}
+.slicknav_nav .slicknav_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.slicknav_nav .slicknav_item { cursor: pointer; }
+.slicknav_nav .slicknav_row { display: block; }
+.slicknav_nav a { display: block ;}
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a { display: inline }
+.slicknav_menu:before,
+.slicknav_menu:after { content: " "; display: table; }
+.slicknav_menu:after { clear: both; }
+/* IE6/7 support */
+.slicknav_menu { *zoom: 1 }
+.slicknav_menu { font-size:16px;font-family: 'Roboto';}
+.slicknav_btn {margin: 5px 5px 6px;text-decoration:none;}
+.slicknav_menu  .slicknav_menutxt {   color: #FFF}
+.slicknav_menu .slicknav_icon-bar { background-color: #f5f5f5;}
+.slicknav_nav {color:#fff; margin:0;padding:0;font-size:14px;}
+.slicknav_nav, .slicknav_nav ul { list-style: none;overflow:hidden;margin-top: 80px;position: fixed;width: 100%;background: rgba(54,154,157,0.8);height: 170px;z-index: 9999}
+.slicknav_nav ul {padding:0;margin:0 0 0 20px;}
+.slicknav_nav .slicknav_row { padding:5px 10px;margin:2px 5px;}
+.slicknav_nav a{ padding:5px 10px;margin:2px 5px; text-decoration:none; color:#fff;}
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a { padding:0; margin:0;}
+.slicknav_nav .slicknav_row:hover {   color:#fff;}
+.slicknav_nav .slicknav_txtnode {  margin-left:15px;   }
+.slicknav_menu { display:none;}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px) {
+    .js #menu {display:none;}
+    .js .slicknav_menu { display:block;}}
+
+@media only screen and (min-width: 960px) and (max-width: 1280px){
+.menu li{display: inline;margin: 0px 30px}
+.intro{background:url(../images/intro.jpg)no-repeat;width: 100%;height: 700px;}
+.intro .container, .intro2 .container{padding-top: 220px;float:left;margin-left:-400px;color: #fff}
+.menu li{display: inline;margin: 0px 20px;font-size: 14px}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+.intro .container, .intro2 .container{padding-top: 220px;float:left;margin-left:-400px;color: #fff}
+.menu li{display: inline;margin: 0px 10px;font-size: 14px}
+.quiensoy button{font-size: 16px}
+.ven{background: url(../images/afec.jpg)no-repeat;width: 100%;height: 900px;background-size: 290%}
+.square{width: 300px !important;height:130px}
+.big{width: 300px !important;height:170px}
+.square:hover .content{height:110px;}
+.big:hover .content{height:150px}
+.cons{background: url(../images/fondo.jpg);height:460px;width: 100%}
+.como table{width: 300px; margin-top: 30px;font-size: 14px}
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.intro .container, .intro2 .container{padding-top: 150px;color: #fff}
+.quiensoy img{zoom:68%;}
+.ven{background: url(../images/afecmin.jpg)no-repeat;width: 100%;height: 1200px;background-size: 480%}
+.af{height: 600px;width:200px!important;position: inherit}
+.cons{background: url(../images/fondo.jpg);height:700px;width: 100%}
+.res{width: 200px!important;display: inline-block;}
+}
+
+@media only screen and  (max-width: 479px){
+.slicknav_btn { padding: 20px 0px 10px 70%}
+.intro .container, .intro2 .container{padding-top: 90px;color: #fff}
+.quiensoy img{zoom:43%;}
+.ven{background: url(../images/afecmin.jpg)no-repeat;width: 100%;height: 1400px;background-size: 1000%;display: block;}
+.square{width: 100% !important;height:130px}
+.big{width: 100% !important;height:180px}
+.square:hover .content{height:110px;}
+.big:hover .content{height:160px}
+.af{height: 600px;width:100%!important;position: inherit}
+.lineb{margin-top: 318px}
+.black{height: 218px}
+.primero:hover .black,.segundo:hover .black,.tercero:hover .black,.cuarto:hover .black,.quinto:hover .black,.sexto:hover .black,.septimo:hover .black,.octavo:hover .black{display: block;margin-bottom: -368px}
+.como table{width: 300px; margin-top: 30px;font-size: 14px}
+.cons{background: #00a3a2;;height:1080px;width: 100%}
+.intro p{font-size: 13px;width: 290px}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Cabecera{
+    /*rgba(54,154,157,0.6)*/
+    background: rgba(54,154,157,0.6);height: 80px;width: 100%;position: fixed;border-bottom: 1px solid #369A9D;z-index: 9999
+  
+}
+
+.InputCrear{
+    border-radius: 2px;
+    box-shadow: 5px 3px 5px #888888;
+    background: -webkit-linear-gradient(bottom, white ,#f1f1f1);
+}
+
+
+.tablas{margin:0 auto;display:block;border-collapse: collapse;font-family: 'Source Sans Pro', sans-serif;font-size: 13px;font-weight: 400;}
+.tablas td,tr{border-bottom: 1px solid  rgba(54,154,157,0.6)}
+.tablas th,.tablas tr,.tablas td{padding:10px 7px}
+.tablas tr:hover{cursor:pointer;background: #D9FCF9}
+tr.none:hover{background-color: white;cursor: auto;}
