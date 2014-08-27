@@ -10,15 +10,15 @@
 <body>
 	<?php include('menu.php') ?>
 <br><br>
-<div class="container">
-	<label>DIRECTORIO</label>
+<div class="container consulta">
+	<h1>DIRECTORIO</h1>
 	<hr>
 
 </div>
 
 <div class="container">
 	<table class="tablas">
-		<tr class="Paciente">
+		<tr class="Paciente nohov">
 			<th><strong>Nombre del Paciente</strong></th>
 			<th><strong>Edad</strong></th>
 			<th><strong>Sexo</strong></th>
